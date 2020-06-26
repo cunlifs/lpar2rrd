@@ -1,4 +1,4 @@
-FROM ubi8/s2i-core:rhel8.2
+FROM registry.redhat.io/rhel7
 #FROM ppc64le/centos:centos8
 
 
