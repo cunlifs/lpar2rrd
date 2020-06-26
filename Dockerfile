@@ -1,4 +1,6 @@
-FROM ppc64le/centos:centos8
+FROM httpd
+#FROM ppc64le/centos:centos8
+
 
 ENV http_proxy http://9.196.156.29:3128
 ENV https_proxy http://9.196.156.29:3128
