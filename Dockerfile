@@ -21,6 +21,10 @@ ENV https_proxy http://9.196.156.29:3128
 RUN adduser --home-dir /home/lpar2rrd -U lpar2rrd
 USER lpar2rrd
 
+COPY lpar2rrd-6.20.tar /home/lpar2rrd/lpar2rrd-6.20.tar
+WORKDIR /home/lpar2rrd
+RUN tar -xvf lpar2rrd-6.20.tar
+
 #    && chown -R node-red:node-red /data \
 #    && chown -R node-red:node-red /usr/src/node-red
 #USER node-red
