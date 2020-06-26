@@ -1,4 +1,4 @@
-FROM registry.redhat.io/rhel8/httpd-24
+FROM ubi8/s2i-core:rhel8.2
 #FROM ppc64le/centos:centos8
 
 
