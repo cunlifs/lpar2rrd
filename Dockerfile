@@ -1,4 +1,4 @@
-FROM httpd
+FROM rhel8/httpd-24
 #FROM ppc64le/centos:centos8
 
 
